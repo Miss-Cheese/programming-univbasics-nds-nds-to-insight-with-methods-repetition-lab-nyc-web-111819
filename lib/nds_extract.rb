@@ -61,7 +61,8 @@ def total_gross(source)
     directors_totals
 
     list_of_directors(source)
-
+    puts list_of_directors
+    
     total +=
     counter += 1
   end
