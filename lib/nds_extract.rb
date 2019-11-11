@@ -31,9 +31,6 @@ def list_of_directors(source)
   while counter < source.count do
     director_hash = source[counter]
     director_name = director_hash[:name]
-    puts "1----------------"
-    puts director_name
-    puts "2----------------"
     counter += 1
     stooges << director_name
   end
@@ -59,10 +56,10 @@ def total_gross(source)
   while counter < source.count do
 
     directors_totals
-
+    puts "1----------------"
     dir_list = list_of_directors(source)
     puts dir_list
-    
+    puts "2----------------"
 
     total +=
     counter += 1
