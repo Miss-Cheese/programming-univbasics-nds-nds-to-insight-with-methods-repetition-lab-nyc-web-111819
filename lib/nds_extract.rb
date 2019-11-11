@@ -56,10 +56,7 @@ def total_gross(source)
   dir_list = list_of_directors(source)
   while counter < dir_list.count do
 
-    puts "1----------------"
-
-    # puts dir_list
-    puts "2----------------"
+  totals_hash = directors_totals(source)
 
     total +=
     counter += 1
