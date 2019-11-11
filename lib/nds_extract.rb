@@ -60,8 +60,9 @@ def total_gross(source)
 
     directors_totals
 
-    list_of_directors(source)
-    puts list_of_directors(source)
+    dir_list = list_of_directors(source)
+    puts dir_list
+    
 
     total +=
     counter += 1
