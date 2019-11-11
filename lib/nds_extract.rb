@@ -58,7 +58,7 @@ def total_gross(source)
 
     puts "1----------------"
 
-    puts dir_list
+    # puts dir_list
     puts "2----------------"
 
     total +=
