@@ -55,13 +55,11 @@ def total_gross(source)
 
   dir_list = list_of_directors(source)
   while counter < dir_list.count do
-
-  totals_hash = directors_totals(source)
-
-    total +=
+    dir_name = dir_list[counter]
+    totals_hash = directors_totals(source)
+    total += totals_hash[dir_name]
     counter += 1
   end
-
 
   total
 
