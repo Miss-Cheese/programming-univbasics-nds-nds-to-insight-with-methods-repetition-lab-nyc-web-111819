@@ -55,18 +55,18 @@ def total_gross(source)
 
   total = 0
   counter = 0
-  
+
   while counter < source.count do
 
     directors_totals
 
     list_of_directors(source)
-    
+
     total +=
     counter += 1
   end
-    
 
-  total 
-  
+
+  total
+
 end
