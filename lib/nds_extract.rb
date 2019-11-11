@@ -53,9 +53,8 @@ def total_gross(source)
   total = 0
   counter = 0
 
-  while counter < source.count do
+  while counter < list_of_directors.count do
 
-    # directors_totals
     puts "1----------------"
     dir_list = list_of_directors(source)
     puts dir_list
